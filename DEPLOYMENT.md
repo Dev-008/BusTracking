@@ -113,8 +113,8 @@ Fill in these details:
 | **Environment** | `Node` |
 | **Region** | Select closest to you |
 | **Branch** | `main` |
-| **Build Command** | `npm install` |
-| **Start Command** | `cd server && npm start` |
+| **Build Command** | `npm install && cd server && npm install` |
+| **Start Command** | `node server/server.js` |
 
 ### 3.4 Add Environment Variables
 
