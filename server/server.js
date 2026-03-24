@@ -41,6 +41,10 @@ app.use(cors({
 app.use(express.json());
 
 // Routes
+app.get('/', (req, res) => {
+  res.json({ message: 'Bus Tracking Backend API', status: 'running' });
+});
+
 app.use('/api/auth', authRoutes);
 
 // Health check
